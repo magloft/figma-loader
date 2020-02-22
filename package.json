@@ -1,6 +1,6 @@
 {
   "name": "figma-svg-json-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Tobias Strebitzer",
   "main": "index.js",
   "description": "Figma to SVG URL loader module for webpack",
