@@ -8,7 +8,7 @@
       "cwd": "${workspaceFolder}/test",
       "outputCapture": "std",
       "program": "${workspaceFolder}/test/node_modules/.bin/webpack",
-      "args": ["-d"]
+      "args": ["-d", "--no-cache"]
     }
   ]
 }

@@ -12,9 +12,6 @@
   "engines": {
     "node": ">=v10.16.3"
   },
-  "scripts": {
-    "serve": "webpack-dev-server --config=test/webpack.config.js"
-  },
   "dependencies": {
     "axios": "^0.19.2",
     "figma-js": "^1.9.0",
