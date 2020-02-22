@@ -1,0 +1,32 @@
+{
+  "name": "figma-svg-json-loader",
+  "version": "1.0.0",
+  "author": "Tobias Strebitzer",
+  "main": "index.js",
+  "description": "Figma to SVG URL loader module for webpack",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MagLoft/figma-svg-json-loader.git"
+  },
+  "engines": {
+    "node": ">=v10.16.3"
+  },
+  "scripts": {
+    "serve": "webpack-dev-server --config=test/webpack.config.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "figma-js": "^1.9.0",
+    "find-cache-dir": "^3.2.0",
+    "fs-extra": "^8.1.0",
+    "loader-utils": "^1.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.6.1"
+  }
+}
