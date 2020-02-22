@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+  background-color: #EEEEEE;
+  background-image: url(./icons.figma?page=widgets&frame=image);
+  background-repeat: no-repeat;
+  background-size: 64px;
+  background-position: center center;
+}
