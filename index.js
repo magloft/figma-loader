@@ -32,7 +32,7 @@ async function getSymbols({ fileId, accessToken, cache }) {
 }
 
 function encodeSvg(data, encoding = 'raw') {
-  if (encoding !== 'bae64') { return data }
+  if (encoding !== 'base64') { return data }
   return `data:image/svg+xml;base64,${Buffer.from(data).toString('base64')}`
 }
 
